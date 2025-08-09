@@ -32,7 +32,7 @@
 
 <!-- Projects Section -->
 ## 📌 Featured Projects
-<div align="center">
+<div align="center"> 
   
   [![SecureComm](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=SecureComm&theme=default&hide_border=true)](https://github.com/ribhav1/SecureComm)
   [![PlanetaryMotion](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=PlanetaryMotion&theme=default&hide_border=true)](https://github.com/ribhav1/PlanetaryMotion)  
@@ -43,10 +43,20 @@
 
 ---
 
-<!-- GitHub Stats Section -->
 ## 📊 GitHub Stats
+<!-- Card Layout -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ribhav1&theme=github-light&hide_border=true&area=true&height=300" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ribhav1&count_private=true&theme=default&hide_border=true" height="150" alt="streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ribhav1&layout=compact&theme=default&hide_border=true" height="150" />
+
+  <!-- Main Stats Card -->
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ribhav1&count_private=true&theme=default&hide_border=true&hide_rank=true&include_all_commits=true" />
+  
+  <!-- Streak Card -->
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=ribhav1&theme=default&hide_border=true" />
+  
 </p>
+
+<!-- Snake Animation -->
+<p align="center">
+  <img src="https://github.com/ribhav1/ribhav1/blob/output/snake.svg" width="100%" alt="Snake animation" />
+</p>
+
