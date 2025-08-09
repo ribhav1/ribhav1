@@ -1,4 +1,3 @@
-<!-- Intro Section -->
 <h1 align="center">Hi, I'm Ribhav 👋</h1>
 <h3 align="center">CS Major @ University of Maryland</h3>
 
@@ -9,7 +8,6 @@
 
 ---
 
-<!-- About Section -->
 ## 👨‍💻 About Me
 > 🎓 Freshman CS major at UMD  
 > 🚀 Currently exploring new technologies and programming languages  
@@ -17,7 +15,7 @@
 
 ---
 
-<!-- Skills Section -->
+<!-- skills icons -->
 ## 🛠 Languages & Tools
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="48" alt="C#"/>
@@ -30,7 +28,6 @@
 
 ---
 
-<!-- Projects Section -->
 ## 📌 Featured Projects
 <div align="center"> 
   
@@ -44,18 +41,17 @@
 ---
 
 ## 📊 GitHub Stats
-<!-- Card Layout -->
 <p align="center">
-
-  <!-- Main Stats Card -->
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ribhav1&count_private=true&theme=default&hide_border=true&hide_rank=true&include_all_commits=true" />
   
-  <!-- Streak Card -->
+  <!-- top languages -->
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ribhav1&layout=compact&langs_count=8&hide_border=true&exclude_repo=AsteroidSmash" />
+
+  <!-- streaks -->
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=ribhav1&theme=default&hide_border=true" />
   
 </p>
 
-<!-- Snake Animation -->
+<!-- snake animation -->
 <p align="center">
   <img src="https://github.com/ribhav1/ribhav1/blob/output/snake.svg" width="100%" alt="Snake animation" />
 </p>
