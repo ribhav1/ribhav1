@@ -1,23 +1,54 @@
-name: Generate Snake
+name: Generate GitHub Snake
 
 on:
-  schedule: # every 12 hours
-    - cron: "0 */12 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"   # runs every 12 hours
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub contribution grid snake
-        uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          github_user_name: ribhav1
-          outputs: dist/snake.svg
-      - name: Push Snake to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Generate snake.svg
+        uses: platane/snk@v3
         with:
-          target_branch: output
-          build_dir: dist
+          github_user_name: 'ribhav1'
+          outputs: 'dist/snake.svg'
+
+      - name: Show generated file (debug)
+        run: |
+          echo "Listing dist/"
+          ls -la dist || true
+
+      - name: Prepare output branch and push snake
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          # If an 'output' branch exists, checkout it, else create an orphan branch
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+            # Remove tracked files on the output branch to keep it minimal
+            git rm -rf . || true
+          else
+            git checkout --orphan output
+          fi
+
+          # Copy the generated svg to the repo root (so URL is /output/snake.svg)
+          mkdir -p .
+          cp dist/snake.svg snake.svg
+          git add snake.svg
+
+          # Commit only if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: update snake"
+            git push origin output --force
+          fi
