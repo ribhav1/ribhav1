@@ -9,7 +9,7 @@
 ---
 
 ## 👨‍💻 About Me
-> 🎓 Freshman CS major at UMD  
+> 🎓 Computer Science student at UMD  
 > 🚀 Currently exploring new technologies and programming languages  
 > 🌱 Interested in projects that merge creativity and technical skills
 
