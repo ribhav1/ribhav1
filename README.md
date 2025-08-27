@@ -34,7 +34,7 @@
   [![SecureComm](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=SecureComm&theme=default&hide_border=true)](https://github.com/ribhav1/SecureComm)
   [![PlanetaryMotion](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=PlanetaryMotion&theme=default&hide_border=true)](https://github.com/ribhav1/PlanetaryMotion)  
   [![VectorMathHelper](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=VectorMathHelper&theme=default&hide_border=true)](https://github.com/ribhav1/VectorMathHelper)
-  [![Raymarcher](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=Raymarcher&theme=default&hide_border=true)](https://github.com/ribhav1/Raymarcher)
+  [![Raymarcher](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=Raymarcher&theme=default&hide_border=true&v=1)](https://github.com/ribhav1/Raymarcher)
 
 </div>
 
