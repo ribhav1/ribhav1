@@ -29,13 +29,20 @@
 ---
 
 ## 📌 Featured Projects
-<div align="center"> 
 
-  [![Raymarcher](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=Raymarcher&theme=default&hide_border=true&v=1)](https://github.com/ribhav1/Raymarcher)
-  [![SecureComm](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=SecureComm&theme=default&hide_border=true)](https://github.com/ribhav1/SecureComm)
-  [![PlanetaryMotion](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=PlanetaryMotion&theme=default&hide_border=true)](https://github.com/ribhav1/PlanetaryMotion)  
-  [![VectorMathHelper](https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=VectorMathHelper&theme=default&hide_border=true)](https://github.com/ribhav1/VectorMathHelper)
-
+<div align="center" justify-content: center;>
+  <a href="https://github.com/ribhav1/Raymarcher">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=Raymarcher&theme=default&hide_border=true&v=1" />
+  </a>
+  <a href="https://github.com/ribhav1/SecureComm">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=SecureComm&theme=default&hide_border=true" />
+  </a>
+  <a href="https://github.com/ribhav1/PlanetaryMotion">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=PlanetaryMotion&theme=default&hide_border=true" />
+  </a>
+  <a href="https://github.com/ribhav1/VectorMathHelper">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=VectorMathHelper&theme=default&hide_border=true" />
+  </a>
 </div>
 
 ---
