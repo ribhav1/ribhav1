@@ -32,7 +32,7 @@
 
 <div align="center" justify-content: center;>
   <a href="https://github.com/ribhav1/Raymarcher">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=Raymarcher&theme=default&hide_border=true&v=1" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=Raymarcher&theme=default&hide_border=true&v=2" />
   </a>
   <a href="https://github.com/ribhav1/SecureComm">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ribhav1&repo=SecureComm&theme=default&hide_border=true" />
